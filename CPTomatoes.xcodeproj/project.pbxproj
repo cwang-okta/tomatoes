@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261895B91888A4CE00920A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261895B81888A4CE00920A60 /* Foundation.framework */; };
+		261895BB1888A4CE00920A60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261895BA1888A4CE00920A60 /* CoreGraphics.framework */; };
+		261895BD1888A4CE00920A60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261895BC1888A4CE00920A60 /* UIKit.framework */; };
+		261895C31888A4CE00920A60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 261895C11888A4CE00920A60 /* InfoPlist.strings */; };
+		261895C51888A4CE00920A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 261895C41888A4CE00920A60 /* main.m */; };
+		261895C91888A4CE00920A60 /* CPTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 261895C81888A4CE00920A60 /* CPTAppDelegate.m */; };
+		261895CC1888A4CE00920A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261895CA1888A4CE00920A60 /* Main.storyboard */; };
+		261895D11888A4CE00920A60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261895D01888A4CE00920A60 /* Images.xcassets */; };
+		261895D81888A4CE00920A60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261895D71888A4CE00920A60 /* XCTest.framework */; };
+		261895D91888A4CE00920A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261895B81888A4CE00920A60 /* Foundation.framework */; };
+		261895DA1888A4CE00920A60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261895BC1888A4CE00920A60 /* UIKit.framework */; };
+		261895E21888A4CE00920A60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 261895E01888A4CE00920A60 /* InfoPlist.strings */; };
+		261895E41888A4CE00920A60 /* CPTomatoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261895E31888A4CE00920A60 /* CPTomatoesTests.m */; };
+		261895F31888A70700920A60 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 261895ED1888A70700920A60 /* Movie.m */; };
+		261895F41888A70700920A60 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261895EE1888A70700920A60 /* MoviesViewController.m */; };
+		261895F51888A70700920A60 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 261895F01888A70700920A60 /* MovieCell.m */; };
+		261896E2188E4F7F00920A60 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261896E1188E4F7F00920A60 /* MovieViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		261895DB1888A4CE00920A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261895AD1888A4CE00920A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261895B41888A4CE00920A60;
+			remoteInfo = CPTomatoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261895B51888A4CE00920A60 /* CPTomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPTomatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		261895B81888A4CE00920A60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		261895BA1888A4CE00920A60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		261895BC1888A4CE00920A60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		261895C01888A4CE00920A60 /* CPTomatoes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPTomatoes-Info.plist"; sourceTree = "<group>"; };
+		261895C21888A4CE00920A60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		261895C41888A4CE00920A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		261895C61888A4CE00920A60 /* CPTomatoes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPTomatoes-Prefix.pch"; sourceTree = "<group>"; };
+		261895C71888A4CE00920A60 /* CPTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAppDelegate.h; sourceTree = "<group>"; };
+		261895C81888A4CE00920A60 /* CPTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTAppDelegate.m; sourceTree = "<group>"; };
+		261895CB1888A4CE00920A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		261895D01888A4CE00920A60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		261895D61888A4CE00920A60 /* CPTomatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPTomatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		261895D71888A4CE00920A60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		261895DF1888A4CE00920A60 /* CPTomatoesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPTomatoesTests-Info.plist"; sourceTree = "<group>"; };
+		261895E11888A4CE00920A60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		261895E31888A4CE00920A60 /* CPTomatoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTomatoesTests.m; sourceTree = "<group>"; };
+		261895ED1888A70700920A60 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		261895EE1888A70700920A60 /* MoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		261895EF1888A70700920A60 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		261895F01888A70700920A60 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		261895F11888A70700920A60 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		261895F21888A70700920A60 /* MoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		261896E0188E4F7F00920A60 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		261896E1188E4F7F00920A60 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261895B21888A4CE00920A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261895BB1888A4CE00920A60 /* CoreGraphics.framework in Frameworks */,
+				261895BD1888A4CE00920A60 /* UIKit.framework in Frameworks */,
+				261895B91888A4CE00920A60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261895D31888A4CE00920A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261895D81888A4CE00920A60 /* XCTest.framework in Frameworks */,
+				261895DA1888A4CE00920A60 /* UIKit.framework in Frameworks */,
+				261895D91888A4CE00920A60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261895AC1888A4CE00920A60 = {
+			isa = PBXGroup;
+			children = (
+				261895BE1888A4CE00920A60 /* CPTomatoes */,
+				261895DD1888A4CE00920A60 /* CPTomatoesTests */,
+				261895B71888A4CE00920A60 /* Frameworks */,
+				261895B61888A4CE00920A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261895B61888A4CE00920A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261895B51888A4CE00920A60 /* CPTomatoes.app */,
+				261895D61888A4CE00920A60 /* CPTomatoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261895B71888A4CE00920A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261895B81888A4CE00920A60 /* Foundation.framework */,
+				261895BA1888A4CE00920A60 /* CoreGraphics.framework */,
+				261895BC1888A4CE00920A60 /* UIKit.framework */,
+				261895D71888A4CE00920A60 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		261895BE1888A4CE00920A60 /* CPTomatoes */ = {
+			isa = PBXGroup;
+			children = (
+				261895F21888A70700920A60 /* MoviesViewController.h */,
+				261895EE1888A70700920A60 /* MoviesViewController.m */,
+				261895EF1888A70700920A60 /* Movie.h */,
+				261895ED1888A70700920A60 /* Movie.m */,
+				261895F11888A70700920A60 /* MovieCell.h */,
+				261895F01888A70700920A60 /* MovieCell.m */,
+				261895C71888A4CE00920A60 /* CPTAppDelegate.h */,
+				261895C81888A4CE00920A60 /* CPTAppDelegate.m */,
+				261895CA1888A4CE00920A60 /* Main.storyboard */,
+				261895D01888A4CE00920A60 /* Images.xcassets */,
+				261895BF1888A4CE00920A60 /* Supporting Files */,
+				261896E0188E4F7F00920A60 /* MovieViewController.h */,
+				261896E1188E4F7F00920A60 /* MovieViewController.m */,
+			);
+			path = CPTomatoes;
+			sourceTree = "<group>";
+		};
+		261895BF1888A4CE00920A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261895C01888A4CE00920A60 /* CPTomatoes-Info.plist */,
+				261895C11888A4CE00920A60 /* InfoPlist.strings */,
+				261895C41888A4CE00920A60 /* main.m */,
+				261895C61888A4CE00920A60 /* CPTomatoes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		261895DD1888A4CE00920A60 /* CPTomatoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				261895E31888A4CE00920A60 /* CPTomatoesTests.m */,
+				261895DE1888A4CE00920A60 /* Supporting Files */,
+			);
+			path = CPTomatoesTests;
+			sourceTree = "<group>";
+		};
+		261895DE1888A4CE00920A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261895DF1888A4CE00920A60 /* CPTomatoesTests-Info.plist */,
+				261895E01888A4CE00920A60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261895B41888A4CE00920A60 /* CPTomatoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261895E71888A4CE00920A60 /* Build configuration list for PBXNativeTarget "CPTomatoes" */;
+			buildPhases = (
+				261895B11888A4CE00920A60 /* Sources */,
+				261895B21888A4CE00920A60 /* Frameworks */,
+				261895B31888A4CE00920A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPTomatoes;
+			productName = CPTomatoes;
+			productReference = 261895B51888A4CE00920A60 /* CPTomatoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		261895D51888A4CE00920A60 /* CPTomatoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261895EA1888A4CE00920A60 /* Build configuration list for PBXNativeTarget "CPTomatoesTests" */;
+			buildPhases = (
+				261895D21888A4CE00920A60 /* Sources */,
+				261895D31888A4CE00920A60 /* Frameworks */,
+				261895D41888A4CE00920A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261895DC1888A4CE00920A60 /* PBXTargetDependency */,
+			);
+			name = CPTomatoesTests;
+			productName = CPTomatoesTests;
+			productReference = 261895D61888A4CE00920A60 /* CPTomatoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261895AD1888A4CE00920A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CPT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Christine Wang";
+				TargetAttributes = {
+					261895D51888A4CE00920A60 = {
+						TestTargetID = 261895B41888A4CE00920A60;
+					};
+				};
+			};
+			buildConfigurationList = 261895B01888A4CE00920A60 /* Build configuration list for PBXProject "CPTomatoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 261895AC1888A4CE00920A60;
+			productRefGroup = 261895B61888A4CE00920A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261895B41888A4CE00920A60 /* CPTomatoes */,
+				261895D51888A4CE00920A60 /* CPTomatoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261895B31888A4CE00920A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261895D11888A4CE00920A60 /* Images.xcassets in Resources */,
+				261895C31888A4CE00920A60 /* InfoPlist.strings in Resources */,
+				261895CC1888A4CE00920A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261895D41888A4CE00920A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261895E21888A4CE00920A60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261895B11888A4CE00920A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261895C91888A4CE00920A60 /* CPTAppDelegate.m in Sources */,
+				261896E2188E4F7F00920A60 /* MovieViewController.m in Sources */,
+				261895C51888A4CE00920A60 /* main.m in Sources */,
+				261895F51888A70700920A60 /* MovieCell.m in Sources */,
+				261895F41888A70700920A60 /* MoviesViewController.m in Sources */,
+				261895F31888A70700920A60 /* Movie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261895D21888A4CE00920A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261895E41888A4CE00920A60 /* CPTomatoesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		261895DC1888A4CE00920A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261895B41888A4CE00920A60 /* CPTomatoes */;
+			targetProxy = 261895DB1888A4CE00920A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		261895C11888A4CE00920A60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261895C21888A4CE00920A60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		261895CA1888A4CE00920A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261895CB1888A4CE00920A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		261895E01888A4CE00920A60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261895E11888A4CE00920A60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261895E51888A4CE00920A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		261895E61888A4CE00920A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261895E81888A4CE00920A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cwang/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPTomatoes/CPTomatoes-Prefix.pch";
+				INFOPLIST_FILE = "CPTomatoes/CPTomatoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		261895E91888A4CE00920A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cwang/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPTomatoes/CPTomatoes-Prefix.pch";
+				INFOPLIST_FILE = "CPTomatoes/CPTomatoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		261895EB1888A4CE00920A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CPTomatoes.app/CPTomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPTomatoes/CPTomatoes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CPTomatoesTests/CPTomatoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		261895EC1888A4CE00920A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CPTomatoes.app/CPTomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPTomatoes/CPTomatoes-Prefix.pch";
+				INFOPLIST_FILE = "CPTomatoesTests/CPTomatoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261895B01888A4CE00920A60 /* Build configuration list for PBXProject "CPTomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261895E51888A4CE00920A60 /* Debug */,
+				261895E61888A4CE00920A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261895E71888A4CE00920A60 /* Build configuration list for PBXNativeTarget "CPTomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261895E81888A4CE00920A60 /* Debug */,
+				261895E91888A4CE00920A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261895EA1888A4CE00920A60 /* Build configuration list for PBXNativeTarget "CPTomatoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261895EB1888A4CE00920A60 /* Debug */,
+				261895EC1888A4CE00920A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 261895AD1888A4CE00920A60 /* Project object */;
+}
